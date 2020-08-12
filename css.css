@@ -1,0 +1,71 @@
+body {
+  background: #7f9297;
+  text-align: center;
+}
+
+.formLogin {
+  margin-top: 100px;
+}
+
+.inputLogin {
+  font-size: 18px;
+  width: 40%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: 0;
+}
+
+.buttonLogin {
+  width: 40%;
+  font-size: 18px;
+  padding: 5px;
+  border: 0;
+  background: #89d3e3;
+  color: #ffffff;
+}
+
+.formShort {
+  margin-top: 100px;
+  font-size: 0;
+}
+
+#htmlInputLink {
+  width: 35%;
+  font-size: 18px;
+  border: 0;
+  border-bottom: 1px solid #184f8a;
+  background: 0;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+#htmlButtonSend {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #184f8a;
+  background: #184f8a;
+  color: #fff;
+}
+
+#htmlTextError {
+  font-size: 16px;
+}
+
+#htmlLinkResult, #htmlCopyInfo {
+  font-size: 22px;
+}
+
+#htmlLinkResult {
+  color: white;
+}
+
+#htmlLinkResult:hover, #htmlCopyInfo:hover {
+  cursor: pointer;
+}
+
+.link {
+  margin-top: 15%;
+  display: block;
+}

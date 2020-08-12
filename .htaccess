@@ -1,0 +1,5 @@
+RewriteEngine On
+#Если открываем файл или папку, которых нет на сервере, редирект на php файл и передача значения в get переменной
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([0-9A-Za-z]*)$ redirect.php?code=$1 [L,QSA]
